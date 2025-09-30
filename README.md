@@ -4,13 +4,13 @@
 # Se realiza un taller calificativo que tiene como fin verificar que se haya aprendido los temas vistos anteriormente en clase:
 
 
-# __________ Parte A ____________________________________________________________________________________________________
--
+# __________ Parte A _______________________________________________________________________________________
+   
 1. ("a.x, a._y, a._A__z") existen.
--
+   
    * "a.__z" no existe directamente porque se transforma en "_A__z".
    * Los atributos con "__" sufren name mangling para evitar colisiones en herencia.
--
+   
    el name mangling es la manipulación de nombres, una técnica que codifica la información de una función o variable en su nombre, creando un identificador único para el enlazador. Varias funciones pueden compartir el mismo nombre si su lista de parámetros difieren (sobrecarga de funciones).
 ____________________________________________________________________________________________________________
 -
