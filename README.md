@@ -76,7 +76,6 @@ def saldo(self, value):
         raise ValueError("Saldo no puede ser negativo")
     self._saldo = value
 ```
-![alt text](image-6.png)
 
 Se asegura que el saldo nunca vaya a ser menor que cero.
 
@@ -87,7 +86,6 @@ Se asegura que el saldo nunca vaya a ser menor que cero.
 def temperatura_f(self):
     return self._c * 9/5 + 32
 ```
-![alt text](image-5.png)
 
 Únicamente para lectura, se calcula dinámicamente desde °C.
 
@@ -104,7 +102,6 @@ def nombre(self, value):
         raise TypeError("nombre debe ser str")
     self._nombre = value
 ```
-![alt text](image-4.png)
 
 Se asegura que el atributo siempre sea una cadena.
 
@@ -115,7 +112,6 @@ Se asegura que el atributo siempre sea una cadena.
 def items(self):
     return tuple(self.__items)
 ```
-![alt text](image-3.png)
 
 Devuelve una tupla inmutable para proteger la lista interna. Su uso puede verse en la lista de transacciones en una cuenta bancaria de una app finaciera,En un catálogo de productos en una tienda online, etc.
 
@@ -139,7 +135,6 @@ class Motor:
         else:
             raise ValueError("Velocidad fuera de rango")
 ```
-![alt text](image-7.png)
 
     Se controla el valor asignado.
 
@@ -177,7 +172,6 @@ class Servicio:
     def guardar(self, k, v):
         self.__repo.guardar(k, v)
 ```
-![alt text](image-8.png)
 
 Solo expone "guardar", manteniendo oculto "_dump"
 
@@ -207,7 +201,5 @@ def main():
 
 if __name__ == "__main__":
     main()
-![alt text](image-9.png)
 
     En el código se protege el estado y se encapsula la lógica de logging.
-
