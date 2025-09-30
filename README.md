@@ -14,7 +14,7 @@
    el name mangling es la manipulación de nombres, una técnica que codifica la información de una función o variable en su nombre, creando un identificador único para el enlazador.
     
    varias funciones pueden compartir el mismo nombre si su lista de parámetros difieren (sobrecarga de funciones).
-*
+\n
 2. Imprime "False True"
 
     - "__secret" no aparece como atributo directo
