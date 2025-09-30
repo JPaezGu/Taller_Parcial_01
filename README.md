@@ -5,7 +5,7 @@
 
 
 # ____________ Parte A _____________________________________
-    .
+
 1. ("a.x, a._y, a._A__z") existen.
    
    * "a.__z" no existe directamente porque se transforma en "_A__z".
@@ -13,52 +13,52 @@
    
    el name mangling es la manipulación de nombres, una técnica que codifica la información de una función o variable en su nombre, creando un identificador único para el enlazador. Varias funciones pueden compartir el mismo nombre si su lista de parámetros difieren (sobrecarga de funciones).
 ____________________________________________________________________________________________________________
-    .
+
 2. Imprime "False True"
                                          
     * "__secret" no aparece como atributo directo
     * Con name mangling sí existe como "_A__secret"
 ____________________________________________________________________________________________________________
-    .
+
 3.  * a. Falso: "_" es convención, no limita acceso real.
     * b. Falso: "__" no impide, solo renombra.
     * c. Verdadero: el mangling depende del nombre de la clase ("_Clase__atributo").
 ____________________________________________________________________________________________________________
-    .
+
 4. Imprime "abc".
 
     * "_token" es accesible porque el guion bajo solo está protegido por convención.
     * "Subclases" pueden leerlo sin problema.
 ____________________________________________________________________________________________________________
 5. Resultado: ("2, 1")
-    .
+
     * "self.__v" en Sub pasa a "_Sub__v = 2".
     * "self._Base__v = 1" viene de la clase base.
     * Cada clase mantiene su propia versión del atributo “privado”.
 ____________________________________________________________________________________________________________
-    .
+
 6. Error: "AttributeError" en c.y
 
     * "__slots__" restringe los atributos solamente a ('x',)
     * Así se evita añadir nuevos atributos dinámicos.
 ____________________________________________________________________________________________________________
-    .
+
 7. Debe ser: self._protegido = 99
 
     * Un solo guion bajo indica "uso interno" por convención.
 ____________________________________________________________________________________________________________
-    .
+
 8. Imprime: "True False True"
 
     * "_step" existe y es accesible.
     * "__tick" no existe como tal, pero "_M__tick" sí, por mangling.
 ____________________________________________________________________________________________________________
-    .
+
 9. Línea Solicitada: print(s._S__data)
 
     * El atributo privado "__data" se guarda como "_S__data"
 ____________________________________________________________________________________________________________
-    .
+
 10. Es más probable: "_D__a"
 
     * "__a" se transforma en "_D__a"
