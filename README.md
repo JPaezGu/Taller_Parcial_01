@@ -121,7 +121,8 @@ def items(self):
     return tuple(self.__items)
 ```
 
-    * Devuelve una tupla inmutable para proteger la lista interna. Su uso puede verse en la lista de transacciones en una cuenta bancaria de una app finaciera,En un catálogo de productos en una tienda online, etc.
+    * Devuelve una tupla inmutable para proteger la lista interna. Su uso puede verse en la lista de transacciones en una
+cuenta bancaria de una app finaciera,En un catálogo de productos en una tienda online, etc.
 
 # _____ Parte C ___________________________________________
 
@@ -151,9 +152,9 @@ ________________________________________________________________________________
 
 En una API pública de una librería:
 
-    * Usaría "_atributo" cuando quiero indicar claramente que algo es interno, pero que aún puede usarse bajo responsabilidad del usuario. Esto es útil si un usuario avanzado quiere hacer debug o experimentar.
+* Usaría "_atributo" cuando quiero indicar claramente que algo es interno, pero que aún puede usarse bajo responsabilidad del usuario. Esto es útil si un usuario avanzado quiere hacer debug o experimentar.
 
-    * Usaría "__atributo" cuando quiero proteger el diseño interno de colisiones accidentales en herencia. Sirve en clases que serán heredadas y donde no quiero que los nombres internos choquen con atributos definidos por el usuario de la librería. Así, si alguien hace una subclase, no puede sobreescribir sin querer los atributos internos.
+* Usaría "__atributo" cuando quiero proteger el diseño interno de colisiones accidentales en herencia. Sirve en clases que serán heredadas y donde no quiero que los nombres internos choquen con atributos definidos por el usuario de la librería. Así, si alguien hace una subclase, no puede sobreescribir sin querer los atributos internos.
 ____________________________________________________________________________________________________________
 
 17. Problema: devuelve lista mutable, se podría llamar una fuga de encapsulación
