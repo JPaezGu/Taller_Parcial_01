@@ -1,7 +1,7 @@
 # Autor: Juan Camilo Páez Guaspud
 # Taller Parcial #01 - Programación Orientada a Objetos
 
-# Se realiza un taller calificativo que tiene como fin verificar que se haya aprendido los temas vistos anteriormente:
+# Se realiza un taller calificativo que tiene como fin verificar que se haya aprendido los temas vistos anteriormente en clase:
 
 
 # --- Parte A --- 
@@ -14,7 +14,7 @@
    el name manglis es la manipulación de nombres, una técnica que codifica la información de una función o variable en su nombre, creando un identificador único para el enlazador.
     
    varias funciones pueden compartir el mismo nombre si su lista de parámetros difieren (sobrecarga de funciones).
-
+*
 2. Imprime "False True"
 
     - __secret no aparece como atributo directo
