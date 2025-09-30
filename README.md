@@ -121,7 +121,7 @@ def items(self):
     return tuple(self.__items)
 ```
 
-    * Devuelve una tupla inmutable para proteger la lista interna. Su uso puede verse en la lista de transacciones en una
+* Devuelve una tupla inmutable para proteger la lista interna. Su uso puede verse en la lista de transacciones en una
 cuenta bancaria de una app finaciera,En un catálogo de productos en una tienda online, etc.
 
 # _____ Parte C ___________________________________________
