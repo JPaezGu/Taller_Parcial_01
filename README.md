@@ -4,8 +4,8 @@
 # Se realiza un taller calificativo que tiene como fin verificar que se haya aprendido los temas vistos anteriormente en clase:
 
 
-# __________ Parte A _______________________________________________________________________________________
-   
+____________ Parte A _______________________________________________________________________________________
+    .
 1. ("a.x, a._y, a._A__z") existen.
    
    * "a.__z" no existe directamente porque se transforma en "_A__z".
@@ -64,7 +64,7 @@ ________________________________________________________________________________
     * "__a" se transforma en "_D__a"
     * Por eso aparece en "dir()"
 
-# ___ Parte B ______________________________________________________________________________________________
+_____ Parte B ______________________________________________________________________________________________
 -
 A pesar de que @property no se abarcó con profundidad en clase, estos son los resultados de mi estudio:
 -
@@ -123,7 +123,7 @@ def items(self):
 -
     * Devuelve una tupla inmutable para proteger la lista interna. Su uso puede verse en la lista de transacciones en una cuenta bancaria de una app finaciera,En un catálogo de productos en una tienda online, etc.
 
-# ___ Parte C ______________________________________________________________________________________________
+_____ Parte C ______________________________________________________________________________________________
 -
 15. Refactor a encapsulación:
 -
